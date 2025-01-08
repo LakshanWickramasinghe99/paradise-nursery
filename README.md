@@ -1,4 +1,4 @@
-# 🌸 Paradise Nursery Shopping Application  
+# Paradise Nursery Shopping Application  
 
 Welcome to the **Paradise Nursery Shopping Application**! This project is a fully functional and interactive front-end application designed to enhance your shopping experience for houseplants.  
 
