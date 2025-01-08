@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.d9583add.css",
-    "main.js": "/static/js/main.21af5a4c.js",
-    "static/media/greenhouse.jpg": "/static/media/greenhouse.dc00952eeee5dd2bb5fe.jpg",
-    "static/media/flowerVase.png": "/static/media/flowerVase.ea9b2116897a1d0581a3.png",
-    "static/media/shoppingcart.svg": "/static/media/shoppingcart.f5c086291b622d5b7d577fc3a80a70b6.svg",
-    "index.html": "/index.html",
-    "static/media/plant.svg": "/static/media/plant.55cb1fd989cab457736162af8ddc4115.svg",
-    "main.d9583add.css.map": "/static/css/main.d9583add.css.map",
-    "main.21af5a4c.js.map": "/static/js/main.21af5a4c.js.map"
+    "main.css": "/paradise-nursery/static/css/main.9c686017.css",
+    "main.js": "/paradise-nursery/static/js/main.e24bdc1d.js",
+    "static/media/greenhouse.jpg": "/paradise-nursery/static/media/greenhouse.dc00952eeee5dd2bb5fe.jpg",
+    "static/media/flowerVase.png": "/paradise-nursery/static/media/flowerVase.ea9b2116897a1d0581a3.png",
+    "static/media/shoppingcart.svg": "/paradise-nursery/static/media/shoppingcart.f5c086291b622d5b7d577fc3a80a70b6.svg",
+    "index.html": "/paradise-nursery/index.html",
+    "static/media/plant.svg": "/paradise-nursery/static/media/plant.55cb1fd989cab457736162af8ddc4115.svg",
+    "main.9c686017.css.map": "/paradise-nursery/static/css/main.9c686017.css.map",
+    "main.e24bdc1d.js.map": "/paradise-nursery/static/js/main.e24bdc1d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9583add.css",
-    "static/js/main.21af5a4c.js"
+    "static/css/main.9c686017.css",
+    "static/js/main.e24bdc1d.js"
   ]
 }
