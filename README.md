@@ -1,46 +1,99 @@
-# Getting Started with Create React App
+# Paradise Nursery Shopping Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the **Paradise Nursery Shopping Application** project! This project is the culmination of a React course, designed to build a fully functional and interactive front-end application for a nursery shopping experience.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Landing Page**
+  - A visually engaging entry point.
+  - Includes:
+    - Company name.
+    - A paragraph about the company.
+    - Background image.
+    - A "Get Started" button linking to the product listing page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Product Listing Page**
+  - Browse a collection of houseplants categorized by shared features (e.g., air purifying or aromatic).
+  - Includes:
+    - Company name and logo (with navigation to the landing page).
+    - Tagline.
+    - Shopping cart icon showing the number of items.
+    - Cards for each plant, displaying:
+      - Thumbnail image.
+      - Name, price, and brief description.
+      - An "Add to Cart" button that updates dynamically to "Added to Cart".
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Shopping Cart Page**
+  - Review, modify, and finalize your shopping list.
+  - Includes:
+    - Cards for each plant in the cart.
+    - Features for modifying the quantity (increase or decrease buttons).
+    - Delete option to remove items.
+    - Subtotals per plant and a grand total for all items.
+    - Checkout button.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## User Interactions and Behavior
 
-### `npm run build`
+- Adding an item to the cart:
+  - Disables the "Add to Cart" button and updates the cart icon in the header.
+- Removing all items of a type from the cart:
+  - Re-enables the "Add to Cart" button on the product listing page.
+  - Updates the cart icon.
+- Dynamic updates:
+  - Total cost and item count dynamically reflect user actions.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **React**: Front-end framework for building user interfaces.
+- **TypeScript**: Typed superset of JavaScript for improved code quality and maintainability.
+- **CSS**: Styles for creating an appealing user interface.
+- Additional libraries or tools as needed.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Project Structure
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Landing Page**: Introduces users to the company and application.
+2. **Product Listing Page**: Allows users to explore available plants and add them to their cart.
+3. **Shopping Cart Page**: Provides a comprehensive view of selected items with options to modify and finalize the cart.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Setup Instructions
 
-## Learn More
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/paradise-nursery.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd paradise-nursery
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+4. Run the development server:
+    ```bash
+    npm start
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The application will be available at `http://localhost:3000/`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+
+## How to Use
+
+1. Start at the landing page to learn about Paradise Nursery.
+2. Click "Get Started" to browse the product listing.
+3. Add plants to your cart by clicking "Add to Cart".
+4. Navigate to the shopping cart page to review and adjust your items.
+5. Proceed to checkout to finalize your order.
+
+---
